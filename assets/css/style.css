@@ -67,3 +67,12 @@ text-transform: uppercase;
 .manu-nav a:hover{
   color: #F0C42A;
 }
+
+/*Sobre*/
+
+.sobre{
+  background-image: url('/assets/images/gato-8.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
