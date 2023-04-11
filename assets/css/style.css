@@ -71,8 +71,43 @@ text-transform: uppercase;
 /*Sobre*/
 
 .sobre{
-  background-image: url('/assets/images/gato-8.jpg');
-  height: 400px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0, 0.1), #445B69), url('/assets/images/gato-8.jpg');
+  height: 550px;
   background-repeat: no-repeat;
   background-size: cover; 
+  margin: auto;  
+}  
+
+.sobre-info{
+  display: block;
+  max-width: 990px;
+  margin: 10px auto;
+}
+
+.sobre-btn{
+  font-size: 2em;
+  background-color: #363536;
+  display: inline-block;
+  padding: 8px 35px;
+  margin-top: 1.875em;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.sobre-info p{
+  color: #ffffff;
+  font-size: 5em;
+  margin-top: 30px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+.btn-amarelo{
+  font-size: 2em;
+  color: #000000;
+  margin-top: 40px;
+  background-color: #F0C42A;
+  padding: 10px 25px;
+  border-radius: 30px;
 }
