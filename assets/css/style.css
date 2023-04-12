@@ -74,14 +74,16 @@ text-transform: uppercase;
   background-image: linear-gradient(to bottom, rgba(0,0,0, 0.1), #445B69), url('/assets/images/gato-8.jpg');
   height: 550px;
   background-repeat: no-repeat;
-  background-size: cover; 
-  margin: auto;  
+  background-size: cover;  
+  flex-wrap: wrap;
 }  
 
 .sobre-info{
+  display: flex;
   display: block;
-  max-width: 990px;
-  margin: 10px auto;
+  max-width: 990px; 
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .sobre-btn{
@@ -111,3 +113,47 @@ text-transform: uppercase;
   padding: 10px 25px;
   border-radius: 30px;
 }
+
+/*Informações*/
+
+.info{ 
+  height: 500px;  
+  margin: 0 auto;
+}
+
+.animais-info{
+  display: flex; 
+  max-width: 1100px;
+  justify-content: space-between; 
+}
+
+.info-bg{
+  width: 350px;
+  height: 470px;
+  background-color: #F4F4F4; 
+  margin: -5%;
+  margin-right: 1px;
+}
+
+.info-bg h2{ 
+  margin-top: 3.25em;
+  padding-bottom: 1.875em;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.info-texto{
+  padding: 10px 15px;
+  padding-bottom: 35px;
+}
+
+.info-btn{
+  font-size: 1.25em;
+  color: #000000;
+  background-color: #F0C42A;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-left: 15px; 
+  font-weight: bold;
+}
+ 
