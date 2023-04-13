@@ -157,3 +157,35 @@ text-transform: uppercase;
   font-weight: bold;
 }
  
+/*Popular*/
+
+.popular h3{
+  text-align: center;
+  padding-top: 70px;
+  font-size: 3em;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.popular{
+  background-image: linear-gradient(to bottom, rgba(0,0,0, 0.1), #1d1c1b), url('/assets/images/gato-6-removebg-preview.png');
+  background-repeat: no-repeat; 
+   
+}
+
+.popular-info{
+  max-width: 990px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.popular-padrao h4{
+  font-size: 22px;
+  color: #F0C42A; 
+}
+
+.popular-padrao p{
+  font-size: 1em;
+  color: #ffffff; 
+}
