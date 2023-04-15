@@ -231,3 +231,28 @@ text-transform: uppercase;
   padding: 7px 30px;
   border-radius: 35px; 
 }
+
+/*Galeria*/
+
+.galeria{
+  background-color: #ccc;
+  height: 380px;
+}
+
+.galeria h3{
+  text-align: center;
+  font-size: 2em; 
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.galeria-geral{
+  max-width: 990px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galeria-images img{
+  max-width: 240px;
+}
