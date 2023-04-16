@@ -75,15 +75,17 @@ text-transform: uppercase;
   height: 550px;
   background-repeat: no-repeat;
   background-size: cover;  
-  flex-wrap: wrap;
+  background-position: center;
+  flex-wrap: wrap; 
+   
 }  
 
 .sobre-info{
   display: flex;
   display: block;
-  max-width: 990px; 
-  margin: 0 auto;
+  max-width: 990px;  
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .sobre-btn{
@@ -168,7 +170,7 @@ text-transform: uppercase;
 }
 
 .popular{
-  background-image: linear-gradient(to bottom, rgba(0,0,0, 0.1), #1d1c1b), url('/assets/images/gato-6-removebg-preview.png');
+  background-image: linear-gradient(to bottom, rgba(0,0,0, 0.1), #1d1c1b), url('/assets/images/gato-9.png');
   background-repeat: no-repeat; 
    
 }
