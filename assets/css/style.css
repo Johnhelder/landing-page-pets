@@ -93,6 +93,11 @@ text-transform: uppercase;
   margin: auto;
 }
 
+.sobre-texto{
+  font-size: 3em;
+  width: 250px;
+}
+
 .sobre-btn{
   font-size: 2em;
   background-color: #363536;
@@ -105,10 +110,9 @@ text-transform: uppercase;
 }
 
 .sobre-info p{
-  color: #ffffff;
-  font-size: 5em;
+  color: #ffffff; 
   margin-top: 30px;
-  line-height: 80px;
+  line-height: 60px;
   margin-bottom: 20px;
 }
 
@@ -283,11 +287,33 @@ footer p{
   font-weight: bold;
 }
 
+/*Menu*/
+@media(max-width: 997px){
+  .menu-logo{
+    margin-left: 20px;
+  }
+}
+
 /*Sobre*/
 
-.sobre-info p{
- font-size: 2em; 
- display: block;
- padding: 0;
- padding-left: 20px;
+@media(max-width: 997px){
+  .sobre-info p{
+    font-size: 2em;  
+    padding: 0;
+    padding-left: 20px;
+   }
+
+   .sobre-btn{
+    margin-left: 20px;
+
+   }
+
+   .sobre-texto{
+    padding: 0;
+    line-height: 1px;
+   }
+
+   .btn-amarelo{
+    margin-left: 20px;
+   }
 }
