@@ -317,3 +317,24 @@ footer p{
     margin-left: 20px;
    }
 }
+
+/*Popular*/
+
+@media(max-width: 794px){
+  .popular{
+    height: 590px;
+  }
+
+  .popular-info{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popular-padrao{
+    margin-left: 20px;
+  }
+
+  .popular-padrao p{
+    width: 740px;
+  }
+}
