@@ -338,3 +338,23 @@ footer p{
     width: 740px;
   }
 }
+
+/*Populares*/
+
+@media(max-width: 794px){
+
+  .populares{ 
+    max-width: 600px;
+  }
+    
+   
+  .geral-popular{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr";
+  }
+
+  .popular-imagem img{ 
+    padding: 0; 
+    max-width: 180px;
+  }
+}
