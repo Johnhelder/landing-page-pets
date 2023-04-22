@@ -55,7 +55,7 @@ img{
   display: flex;
   flex-wrap: wrap;
 }
-
+ 
 .manu-nav a{
 display: block;
 padding: 10px;
@@ -376,3 +376,47 @@ footer p{
     margin: 0 auto;
   }
 }
+
+/*Populares*/
+
+ 
+  @media(max-width: 400px){
+    .populares h2{
+      margin-top: 40px;
+    }
+    .populares{ 
+      background-color: #445B69;
+      height: 1200px;
+    }
+    .popular-imagem img{
+      max-width: 250px;
+      margin: 0 auto;
+    }
+    .popular-detalhe{
+      margin: 0 auto;
+      padding-left: 70px;
+      padding-top: 20px;
+      font-size: 2em;
+    }
+    .geral-popular{
+      display: flex;
+      grid-template-columns: 1fr;
+    }
+
+     .popular-texto{
+      font-size: 23px;
+      padding-left: 50px;
+      box-sizing: border-box;
+      width: 300px;
+     }
+
+    .popupares-btn{
+      display: block;
+     margin-left: 60px;
+     margin-top: 15px;
+     margin-bottom: 30px;
+    }
+    
+  }
+ 
+ 
