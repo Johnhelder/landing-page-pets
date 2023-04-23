@@ -419,4 +419,21 @@ footer p{
     
   }
  
+  /*Informações*/
+  
+  @media(max-width: 400px){
+    .info{
+      height: 670px;
+      padding: 0 auto;
+    }
+    .animais-info{
+      display: flex;
+      flex-direction: column;
+    }
+    .info-bg{
+      height: 390px;  
+      margin-left: 20px;
+      width: 360px;
+    }
+  }
  
