@@ -436,4 +436,18 @@ footer p{
       width: 360px;
     }
   }
+
+  /*Galeria*/
+
+  @media(max-width: 400px){
+    .galeria-geral{
+      background-color: #222222;
+      height: 1000px;
+      display: flex;
+      flex-direction: row;
+      padding: 0 auto;
+    }
+  }
  
+
+  
