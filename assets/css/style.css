@@ -294,6 +294,12 @@ footer p{
   }
 }
 
+@media(max-width: 400px){
+  .manu-nav{
+    padding-left: 20px;
+  }
+}
+
 /*Sobre*/
 
 @media(max-width: 997px){
@@ -467,7 +473,6 @@ footer p{
   /*Footer*/
 
 footer{
-  display: flex;
-  margin-top: 460px;
+  display: none; 
 }
   
