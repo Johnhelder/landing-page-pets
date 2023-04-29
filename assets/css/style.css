@@ -116,13 +116,23 @@ text-transform: uppercase;
   margin-bottom: 20px;
 }
 
+.sobre-btn:hover{
+  background-color: #F0C42A;
+  color: #1d1c1b;
+}
+
 .btn-amarelo{
-  font-size: 2em;
+  font-size: 1.75em;
   color: #000000;
   margin-top: 40px;
   background-color: #F0C42A;
   padding: 5px 26px;
   border-radius: 30px;
+}
+
+.btn-amarelo:hover {
+  background-color: #000000;
+  color: #F0C42A;
 }
 
 /*Informações*/
@@ -163,7 +173,7 @@ text-transform: uppercase;
   color: #000000;
   background-color: #F0C42A;
   border-radius: 30px;
-  padding: 10px 30px;
+  padding: 8px 30px;
   margin-left: 15px; 
   font-weight: bold;
 }
@@ -234,11 +244,11 @@ text-transform: uppercase;
   margin: 10px;
   margin-bottom: 30px;
 }
-
+ 
 .popupares-btn{
   background-color: #F0C42A;
   color: #000000;
-  font-size: 2em;
+  font-size: 1.562em;
   padding: 7px 30px;
   border-radius: 35px; 
 }
